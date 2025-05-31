@@ -19,6 +19,8 @@ Welcome to the course! This repository has all the coding assignments that you'l
 
 2. **Create and activate a virtual environment (recommended)**
 
+   Run the following at the this repository's root directory:
+
    ```bash
    # On macOS/Linux
    python3 -m venv .venv
