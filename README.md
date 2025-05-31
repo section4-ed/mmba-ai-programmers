@@ -1,48 +1,52 @@
-# MindBit's AI Advocate Course
+# Section's AI MMBA Code Repository
 
-Welcome to the course! If you're looking for everything you need to complete this course, you've come to the right place. All course material links that you'll need are listed below. 
+Welcome to the course! This repository has all the coding assignments that you'll be completing each week. These assignments are meant to go quickly, with each one taking between 5-10 minutes. Try to do them yourself for a few minutes, then enlist the help of AI to figure it out faster.
 
-For each class, you'll have:
-1. Prework - this is to be done before class and should take about 10-20 minutes
-2. Class Materials - This is the material we'll use in class. You can puruse it at your leasure.
+## Getting Started
 
-## Class Links
+### Prerequisites
+- Python 3.8 or higher installed on your computer
+- pip (Python package installer) - comes with Python by default
+- A code editor (like VS Code, PyCharm, or Sublime Text)
 
+### Setting Up Your Environment
 
-### Course Prework (do this first)
+1. **Clone this repository**
+   ```bash
+   git clone [repository-url]
+   cd curriculum_ai_advocate
+   ```
 
-- [To-do List Before Your First Class](./precourse_work/README.md)
-- [AI Project Ideas](./precourse_work/ai_project_ideas.md)
-- [AI Project Planning Document](./precourse_work/ai_project_planning_doc.md)
+2. **Create a virtual environment (recommended)**
+   ```bash
+   # On macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
 
-### Class 1
-1. [Prework](./class_1/prework)
-2. [Class Material](./class_1/)
+   # On Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
 
-### Class 2
-1. [Prework](./class_2/prework)
-2. [Class Material](./class_2/)
+3. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Class 3
-1. [Prework](./class_3/prework)
-2. [Class Material](./class_3/)
+4. **Verify installation**
+   ```bash
+   python --version  # Should show Python 3.8 or higher
+   pip list  # Should show all installed packages
+   ```
 
-### Class 4
-1. [Prework](./class_4/prework)
-2. [Class Material](./class_4/)
+### Running Python Scripts
+To run any Python script in this course:
+```bash
+python path/to/script.py
+```
 
-### Class 5
-1. [Prework](./class_5/prework)
-2. [Class Material](./class_5/)
-
-### Class 6
-1. [Prework](./class_6/prework)
-2. [Class Material](./class_6/)
-
-### Class 7
-1. [Prework](./class_7/prework)
-2. [Class Material](./class_7/)
-
-### Class 8
-1. [Prework](./class_8/prework)
-2. [Class Material](./class_8/)
+If you encounter any issues:
+1. Make sure your virtual environment is activated
+2. Verify all requirements are installed
+3. Check that you're in the correct directory
+4. Ensure you have the correct Python version

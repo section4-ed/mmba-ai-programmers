@@ -1,8 +1,2 @@
 **/.venv/
 **/.env
-class_*/.playground
-class_*/lesson_plan.md
-unsaved_items/
-prompt_optimizer_simple.py
-token.json
-credentials.json
