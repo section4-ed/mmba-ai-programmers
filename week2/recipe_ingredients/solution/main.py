@@ -50,4 +50,4 @@ if __name__ == "__main__":
     recipe = get_recipe_from_text(recipe_text)
     
     # Print results
-    pprint(recipe.ingredients[0])
+    pprint(recipe)

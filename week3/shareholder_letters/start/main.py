@@ -2,7 +2,7 @@ import os
 import glob
 import openai
 from pinecone import Pinecone
-from typing import List, Tuple
+from typing import List
 
 # Initialize OpenAI and Pinecone clients
 openai.api_key = os.environ.get("OPENAI_API_KEY")

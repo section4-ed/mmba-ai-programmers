@@ -44,7 +44,7 @@ Your task is to complete the `search_documents` function in the starter code. Th
 
 ## Testing
 1. Navigate to the `start` directory
-2. First, uncomment and run the document loading and embedding code (first-time setup)
+2. **IMPORTANT: Near the bottom of the file in the main function, uncomment and run the document loading and embedding code (first-time setup). Once that runs successfully, comment it again.**
 3. Then test with the provided query or create your own questions
 4. Run the script to verify your implementation:
    ```bash

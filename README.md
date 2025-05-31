@@ -7,7 +7,7 @@ Welcome to the course! This repository has all the coding assignments that you'l
 ### Prerequisites
 - Python 3.8 or higher installed on your computer
 - pip (Python package installer) - comes with Python by default
-- A code editor (like VS Code, PyCharm, or Sublime Text)
+- A code editor (preferably [Cursor](https://www.cursor.com/))
 
 ### Setting Up Your Environment
 
@@ -17,23 +17,26 @@ Welcome to the course! This repository has all the coding assignments that you'l
    cd curriculum_ai_advocate
    ```
 
-2. **Create a virtual environment (recommended)**
+2. **Create and activate a virtual environment (recommended)**
+
    ```bash
    # On macOS/Linux
-   python3 -m venv venv
-   source venv/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate 
 
    # On Windows
-   python -m venv venv
-   .\venv\Scripts\activate
+   python -m venv .venv
+   .\.venv\Scripts\activate
    ```
 
 3. **Install required packages**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Verify installation**
+
    ```bash
    python --version  # Should show Python 3.8 or higher
    pip list  # Should show all installed packages

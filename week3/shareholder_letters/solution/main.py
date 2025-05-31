@@ -2,7 +2,7 @@ import os
 import glob
 import openai
 from pinecone import Pinecone
-from typing import List, Tuple
+from typing import List
 
 # Initialize OpenAI and Pinecone clients
 openai.api_key = os.environ.get("OPENAI_API_KEY")
@@ -17,10 +17,12 @@ def load_documents():
     """Load all text documents from the letters directory."""
     documents = []
     script_dir = os.path.dirname(os.path.abspath(__file__))
+    print(script_dir)
     path = os.path.join(script_dir, "letters/*.txt")
     files = glob.glob(path)
     
     for file_path in files:
+        print(file_path)
         with open(file_path, 'r') as file:
             content = file.read()
             documents.append({"content": content, "metadata": {"source": file_path}})
