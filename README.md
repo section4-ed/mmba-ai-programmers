@@ -14,7 +14,7 @@ Welcome to the course! This repository has all the coding assignments that you'l
 1. **Clone this repository**
    ```bash
    git clone [repository-url]
-   cd curriculum_ai_advocate
+   cd mmba-ai-programmers
    ```
 
 2. **Create and activate a virtual environment (recommended)**
