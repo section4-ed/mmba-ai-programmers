@@ -38,7 +38,7 @@ export LANGCHAIN_PROJECT="news_extraction_homework"
 1. Complete the evaluation implementation:
    - Implement the missing `evaluate` function at the end of the file
    - Use LangSmith's `evaluate` function to run the evaluation
-   - The dataset is already uploaded to LangSmith with the name "news_dataset_class"
+   - Upload the news_dataset.csv to your LangSmith account with the name "news_dataset_class"
    - Create an experiment with the prefix "news_extraction_homework"
    - Run the evaluation on the provided dataset
    - Review the evaluation results in LangSmith's interface
