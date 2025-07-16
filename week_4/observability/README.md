@@ -10,6 +10,28 @@ Your task is to complete the `search_documents` function in the starter code. Th
 - Return the search results for use in generating answers
 - All operations will be automatically traced by LangSmith
 
+### This is the Process Flow
+
+```
+  ┌─────────────────┐    ┌─────────────────┐     ┌─────────────────┐
+  │ load_documents  │──▶│ chunk_documents │ ───▶│ get_embeddings  │
+  │ (read ./letters)│    │ (splits text)   │     │ (OpenAI API)    │
+  └─────────────────┘    └─────────────────┘     └─────────────────┘
+                                                          │
+                                                          ▼
+  ┌─────────────────┐    ┌─────────────────┐     ┌─────────────────┐
+  │ ask_openai      │◀──│ search_documents│ ◀───│ embed_documents │
+  │ (+ @traceable)  │    │ (from Pinecone) │     │ (store in       │
+  └─────────────────┘    └─────────────────┘     │  Pinecone)      │
+                                                 └─────────────────┘
+                                                          ▲
+                                                          │
+                                                 ┌─────────────────┐
+                                                 │ User Query      │
+                                                 │                 │
+                                                 └─────────────────┘
+  ```
+
 **Estimated Time:** 5 minutes
 
 ## Requirements
