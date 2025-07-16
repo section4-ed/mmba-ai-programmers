@@ -10,7 +10,7 @@ Your task is to complete the `search_documents` function in the starter code. Th
 - Return the search results for use in generating answers
 - All operations will be automatically traced by LangSmith
 
-### This is the Process Flow
+### Process Flow
 
 ```
   ┌─────────────────┐    ┌─────────────────┐     ┌─────────────────┐
