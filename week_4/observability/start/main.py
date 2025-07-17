@@ -18,7 +18,7 @@ langsmith_client = Client(api_key=langsmith_api_key)
 INDEX_NAME = "test"
 EMBEDDING_MODEL = "text-embedding-3-small"
 CHAT_MODEL = "gpt-4o-mini-2024-07-18"
-LANGSMITH_TRACING="true"
+LANGSMITH_TRACING = "true"
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 
 @traceable(name="load_documents")
