@@ -37,16 +37,21 @@ export LANGCHAIN_PROJECT="news_extraction_homework"
 
 1. Complete the evaluation implementation:
    - Implement the missing `evaluate` function at the end of the file
-   - Use LangSmith's `evaluate` function to run the evaluation
-   - The dataset is already uploaded to LangSmith with the name "news_dataset_class"
-   - Create an experiment with the prefix "news_extraction_homework"
-   - Run the evaluation on the provided dataset
-   - Review the evaluation results in LangSmith's interface
+   - Use LangSmith’s `evaluate` function to run the evaluation
+   - Upload the `news_dataset.csv` to LangSmith as a dataset named `news_dataset_class`
+   - Navigate to LangSmith: Go to [smith.langchain.com](https://smith.langchain.com) and log in
+   - Access Datasets: Click on “Datasets” in the left sidebar
+   - Create New Dataset: Click the “New Dataset” or “+” button
+   - Choose “Create from CSV or JSONL”
+   - Drag the `news_dataset.csv` file to the Upload File box
+   - Change the name to `news_dataset_class`
+   - Add a description (optional)
+   - Specify which columns represent inputs vs outputs
 
 2. Check that your implementation correctly:
    - Uses the `make_call_to_llm` function as the prediction function
    - Uses the `perform_eval` function as the evaluator
-   - Connects to the "news_dataset_class" dataset in LangSmith
+   - Connects to the `news_dataset_class` dataset in LangSmith
 
 ## Testing
 
