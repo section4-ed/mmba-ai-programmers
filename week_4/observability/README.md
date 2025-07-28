@@ -41,8 +41,8 @@ Your task is to complete the `search_documents` function in the starter code. Th
    ```
 
 ## Testing
-1. Navigate to the `start` directory
-2. Update the Pinecone index name to match your own.
+1. Navigate to the project’s `start` directory
+2. Update the Pinecone index name to match your own (the one you made in week 3's `shareholder_letters` assignment)
 3. Find the TODO and add a traceable decorator to trace your LLM and RAG calls in LangSmith.
 4. Run the script to verify your implementation:
    ```bash
