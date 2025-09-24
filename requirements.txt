@@ -17,7 +17,7 @@ packaging==24.2
 pinecone==7.0.2
 pinecone-plugin-assistant==1.6.1
 pinecone-plugin-interface==0.0.7
-pip==24.0
+pip==25.2
 pydantic==2.11.5
 pydantic-core==2.33.2
 python-dateutil==2.9.0.post0
